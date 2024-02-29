@@ -103,7 +103,7 @@ div,li {
   display: flex;
 }
 .concepto_texto {
-  width: 65%;
+  width: 60%;
 }
 .concepto_imagen {
   width: 35%;
@@ -141,29 +141,31 @@ div,li {
 }
 .coffee {
   padding: 40px;
+  margin: 20px;
 }
 .cafe {
   display: flex;
+  margin: 20px;
   background-color: #fff;
   width: 100%;
-  padding: 10px;
-
 }
 .cafe ul {
+  list-style-type: none;
   display: flex;
-  text-align: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: 20px;
 }
 .cafe ul li {
-  height: auto;
+  flex: 0 0 49%;
+  margin-bottom: 10px;
   display: flex;
-  margin: 10px;
-  width: 49%;
 }
 .cafe ul li img {
   width: 20%;
   height: auto;
   border-radius: 100%;
+  
 }
 .texto_cafe {
   width: 80%;
